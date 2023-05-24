@@ -19,8 +19,7 @@ const URL = 'https://travel-advisor.p.rapidapi.com/restaurants/list-in-boundary'
             'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
           }
         });
-        console.log(data[0].name)
-        console.log(bounds)
+
         return data;
     } catch (error) {
         console.log(error);
